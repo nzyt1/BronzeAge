@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "bronzeage:block/tin_ore_block_model" }
+  }
+}
