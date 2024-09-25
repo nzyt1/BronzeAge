@@ -20,4 +20,10 @@ public class BlockRegistry{
     public static final RegistryObject<Block> TIN_ORE_BLOCK = BLOCKS.register("tin_ore_block",
             () -> new TinOreBlock(BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_BLACK)));
 
+    public static final RegistryObject<Block> ALU_ORE_BLOCK = BLOCKS.register("alu_ore_block",
+            () -> new AluOreBlock(BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_BLACK)));
+
+    public static final RegistryObject<Block> LEAD_ORE_BLOCK = BLOCKS.register("lead_ore_block",
+            () -> new LeadOreBlock(BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_BLACK)));
+
 }
